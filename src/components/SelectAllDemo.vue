@@ -1,22 +1,18 @@
 <template>
   <div>
     <ol>
-      <br/>
       <li>
         <label for="selectAll">Select All</label>
         <input type="checkbox" id="selectAll" v-model="allSelected" :indeterminate.prop="selectAllIndeterminate">
       </li>
-      <br/>
       <li>
         <label for="optionA">Option A</label>
         <input type="checkbox" id="optionA" v-model="options[0].selected">
       </li>
-      <br/>
       <li>
         <label for="optionB">Option B</label>
         <input type="checkbox" id="optionB" v-model="options[1].selected">
       </li>
-      <br/>
       <li>
         <label for="optionC">Option C</label>
         <input type="checkbox" id="optionC" v-model="options[2].selected">
